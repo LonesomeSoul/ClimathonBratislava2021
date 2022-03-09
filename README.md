@@ -6,11 +6,15 @@
 
 https://youtu.be/x5goquBHF_0?t=5457 - презентация нашего проекта (OxygenNO team). 
 
+English:
+
 The main idea of the project is to improve environmental situation via moving a lot of people to the remote working format. For visualising climat changes I made a heatmap. Also there is a prototype of ML-model which could show employers who exactly should be moved to remote work. All the data from Climathon is private, so i can only share screenshots of the heatmap. 
 
 My role was writing the code and idea generation.
 
 https://youtu.be/x5goquBHF_0?t=5457 - the presentation of the project (OxygenNO team).
+
+
 1) MapClimathon:
 I've made a heatmap showing households energy consumption average values by hours to show how energy using distributes across households depending on a day time. To change a timestamp u need to open In[51] and change value of "hour=14" to your timestamp (48 timestamps, 30 minutes each). The maps are displayed at the very bottom (In 53,54). To summarize: In [51] - change the timestamp, In[53] or In[54] - run any of these cells to plot a heatmap for your timestamp.
 2) WorkersClimathonML:
